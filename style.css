@@ -124,3 +124,118 @@ span{
 .deals{
     font-weight: 700;
 }
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    text-align: center;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+.hero-message a{
+    color: #007185;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    margin-top: 16px;
+    height: 400px;
+    width: 23%;
+    /*border: 2px solid black;*/
+    background-color: white;
+    padding: 20px,0px,15px;
+}
+.boximg{
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxcontent p{
+    
+    color: #007185;
+}
+.boxcontent{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-pannel1{
+    background-color: #374751;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    margin-top: 15px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 2px solid white;
+    height: 70px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-pannel4{
+    height: 80px;
+    color: white;
+    font-size: 0.7rem;
+    background-color: #0f1111;
+}
+.pages{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
+}
+.pages a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+}
